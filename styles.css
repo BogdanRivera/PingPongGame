@@ -1,0 +1,53 @@
+/* Estilo general del body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Contenedor del juego */
+.game-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9ecef;
+    padding: 2px;
+}
+
+/* Ajustar tamaño del canvas */
+canvas {
+    border: 2px solid #007bff;
+}
+
+/* Footer */
+footer.seccion-oscura {
+    background-color: #343a40;
+    color: white;
+    padding: 16px 0;
+    font-size: 0.9rem;
+    text-align: center;
+}
